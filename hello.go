@@ -2,8 +2,8 @@ package hello
 
 import "fmt"
 
-func GetHello() string {
-	return "Hello world, v1.1.1!"
+func GetHello(ignored int) string {
+	return "Hello world, v2.0.0!"
 }
 
 func SayHello() {
