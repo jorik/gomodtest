@@ -7,5 +7,5 @@ func GetHello(ignored int) string {
 }
 
 func SayHello() {
-	fmt.Println(GetHello())
+	fmt.Println(GetHello(1))
 }
